@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/HP3.jpg");
+}
+
+h1 {
+    text-align: center;
+    padding: 100px;
+}
+
+.display-4 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.button_center {
+    text-align: center;
+}
