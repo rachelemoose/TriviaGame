@@ -5,15 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Trivia Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman|Dancing+Script|Indie+Flower|Lobster|Mali|Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     
 </head>
 <body>
+<h1 class="display-4">Harry Potter Trivia Game</h1>
     <div class="container">
-        <h1 class="display-4">Harry Potter Trivia Game</h1>
         <div class="button_center">
-        <button type="button" class="btn btn-secondary">Begin Your Wizarding Quiz</button>
+        <button type="button" class="btn btn-secondary" id="start">Begin Your Wizarding Quiz</button>
+        </div>
+        <div id="instructions">
+            <p>You will have 10 seconds to answer each question.</p>
+            <p>There will be a pause after each question for you to review your answer.</p>
+            <p>The next question will then begin with the timer at 10 seconds again.</p>
+            <p>Good Luck!</p>
+        </div>
+        </div>
+        <br>
+        <br>
+    <div id="timer"></div>
+    <div id="questions"></div>
+    <div id="choices"></div>
+        <div id="results"></div>
+    <button type="button" class="btn btn-dark" id="reset">Play Again</button>
     </div>
         
 

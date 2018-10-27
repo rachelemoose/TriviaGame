@@ -14,3 +14,38 @@ h1 {
 .button_center {
     text-align: center;
 }
+
+#questions {
+    color: white;
+    font-weight: bold;
+    font-family: 'Mali', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#choices {
+    color: white;
+    font-family: 'Charmonman', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+}
+
+#timer {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    width: 200px center;
+}
+
+.answerchoice {
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-emphasis: bold;
+    font-size: 40px;
+    color: white;
+}
+
